@@ -27,12 +27,14 @@ This repository implements a Retrieval-Augmented Generation (RAG) system using F
 ```bash
 git clone <repo-url>
 cd <repo-name>
+```
 
 ### 2. Install Dependencies
 Install the required Python packages:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ### 3. Set Up the Environment
 Create a .env file in the root directory and add the following variables:
@@ -47,6 +49,7 @@ DEVICE=cpu
 CHUNK_SIZE=1000
 CHUNK_OVERLAP=20
 PORT=8000
+```
 
 
 ### 4. Add Documents
@@ -59,7 +62,7 @@ Start the FastAPI server:
 python app.py 
 
 Access the server at:
-``` arduino
+``` 
 http://127.0.0.1:8000 
 
 
@@ -74,7 +77,7 @@ Example curl command:
 curl -X POST "http://127.0.0.1:8000/query/" \
 -H "Content-Type: application/json" \
 -d '{"query": "Explain the paper briefly."}'
-
+```
 
 API Endpoints
 
@@ -89,6 +92,7 @@ Input:
 
 ```json
  {"query": "Your question here"}  
+```
 
 Output:
 
@@ -102,6 +106,7 @@ Output:
     }
   ]
 }
+```
 
 
 ### Project Structure
@@ -115,9 +120,9 @@ Output:
 ├── example_data/         # Directory for PDF documents
 ├── README.md             # Project documentation
 └── 
+```
 
-
-Contributing
+#### Contributing
 
 Contributions are welcome! Follow these steps to contribute:
 
@@ -125,7 +130,7 @@ Fork the repository.
 Create a new branch for your feature or bug fix.
 Submit a pull request with a detailed description.
 
-License
+### License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
