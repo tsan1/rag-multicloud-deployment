@@ -60,6 +60,7 @@ Start the FastAPI server:
 
 ```bash
 python app.py 
+```
 
 Access the server at:
 ``` 
