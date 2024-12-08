@@ -1,6 +1,6 @@
 
 
-import nest_asyncio
+#import nest_asyncio
 
 from pydantic import BaseModel
 import faiss
@@ -21,7 +21,7 @@ from langchain.memory import ConversationTokenBufferMemory
 from langchain.prompts.prompt import PromptTemplate
 
 from fastapi import FastAPI
-from pyngrok import ngrok
+#from pyngrok import ngrok
 import uvicorn
 import requests
 
@@ -239,3 +239,4 @@ if __name__ == "__main__":
     # Run the FastAPI app using uvicorn
 
     uvicorn.run(app, host="0.0.0.0", port=8000)
+
