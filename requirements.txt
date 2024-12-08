@@ -1,0 +1,14 @@
+langchain==0.3.10
+langchain-community==0.3.10
+torch==2.5.1
+transformers==4.47.0
+pypdf==5.1.0
+sentence-transformers==3.3.1
+faiss-cpu==1.9.0.post1
+langchain-huggingface==0.1.2
+uvicorn==0.32.1
+fastapi==0.115.6
+accelerate==1.2.0
+bitsandbytes==0.45.0
+
+
