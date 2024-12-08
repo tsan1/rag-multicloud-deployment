@@ -1,0 +1,17 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+venv/
+.env
+
+# Ignore local data and logs
+*.log
+curl_example.txt
+rag.py
+requests_json_payload.py
+
+
+
