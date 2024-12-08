@@ -28,13 +28,13 @@ This repository implements a Retrieval-Augmented Generation (RAG) system using F
 git clone <repo-url>
 cd <repo-name>
 
-2. Install Dependencies
+### 2. Install Dependencies
 Install the required Python packages:
 
 ```bash
 pip install -r requirements.txt
 
-3. Set Up the Environment
+### 3. Set Up the Environment
 Create a .env file in the root directory and add the following variables:
 
 ```plaintext
@@ -49,10 +49,10 @@ CHUNK_OVERLAP=20
 PORT=8000
 
 
-4. Add Documents
+### 4. Add Documents
 Place your PDF documents in the example_data/ directory (or the directory specified in DIRECTORY_PATH).
 
-5. Run the Application
+### 5. Run the Application
 Start the FastAPI server:
 
 ```bash
@@ -63,7 +63,7 @@ Access the server at:
 http://127.0.0.1:8000 
 
 
-Usage
+### Usage
 
 Query the RAG System
 Send a POST request to the /query/ endpoint with a JSON payload containing your query.
@@ -104,7 +104,7 @@ Output:
 }
 
 
-Project Structure
+### Project Structure
 
 ```
 <repo-name>/
@@ -114,7 +114,7 @@ Project Structure
 ├── .env                  # Environment variables
 ├── example_data/         # Directory for PDF documents
 ├── README.md             # Project documentation
-└── ...
+└── 
 
 
 Contributing
