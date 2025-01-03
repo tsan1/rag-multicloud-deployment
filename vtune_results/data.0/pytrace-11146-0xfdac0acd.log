@@ -1,0 +1,11 @@
+
+11146 : 0x35afdb0c7ef : 3 : logger_init :  LOG FILE OPENED (by collectunits.logger), level: 4
+11146 : 0x35b00167e7d : 4 : pytrace_try_probe_python_functions :  Python version is detected as == 0x312
+11146 : 0x35b00175c3c : 4 : probePythonFunctions :  PyThreadState_Swap
+11146 : 0x35b00481dee : 4 : probePythonFunctions :  PyThreadState_Swap probed at 0x748610a99388
+11146 : 0x35b0048ae8a : 4 : probePythonFunctions :  PyThreadState_Clear
+11146 : 0x35b007b8504 : 4 : probePythonFunctions :  PyThreadState_Clear probed at 0x748610a993b0
+11146 : 0x35b007c1012 : 4 : probePythonFunctions :  Py_Initialize
+11146 : 0x35b00a258a5 : 4 : probePythonFunctions :  Py_Initialize probed at 0x748610a993d8
+11146 : 0x35b00a2e59e : 4 : probePythonFunctions :  Py_InitializeEx
+11146 : 0x35b00cdf2fb : 4 : probePythonFunctions :  Py_InitializeEx probed at 0x748610a99418
