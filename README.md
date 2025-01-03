@@ -59,7 +59,7 @@ Place your PDF documents in the example_data/ directory (or the directory specif
 Start the FastAPI server:
 
 ```bash
-python app.py 
+python rag_main.py 
 ```
 
 Access the server at:
@@ -116,7 +116,7 @@ Output:
 ```
 <repo-name>/
 │
-├── app.py                # Main FastAPI application
+├── rag_main.py                # Main FastAPI application
 ├── requirements.txt      # Python dependencies
 ├── .env                  # Environment variables
 ├── example_data/         # Directory for PDF documents
