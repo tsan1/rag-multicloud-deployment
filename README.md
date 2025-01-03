@@ -121,7 +121,7 @@ Output:
 ├── .env                  # Environment variables
 ├── example_data/         # Directory for PDF documents
 ├── README.md             # Project documentation
-└── 
+└── dockerfile            # Dockerfile to build the docker image
 ```
 
 #### Contributing
